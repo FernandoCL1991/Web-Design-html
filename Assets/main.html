@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Links to all visualization pages-->
+    <!-- <link rel="stylesheet" type="text/css" href="vi1.css">
+    <link rel="stylesheet" type="text/css" href="vi2.css">
+    <link rel="stylesheet" type="text/css" href="vi3.css">
+    <link rel="stylesheet" type="text/css" href="vi4.css">
+    <link rel="stylesheet" type="text/css" href="vi5.css">
+    <link rel="stylesheet" type="text/css" href="vi6.css">
+    <link rel="stylesheet" type="text/css" href="vi7.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Tab Title-->
+    <title>Weather Data Site</title>
+    
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <div class="container">
+    <div class="sidenav">
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">Home</a>
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">About</a>
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">City Latitude vs. Max Temperature Analysis</a>
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">City Latitude vs. Humidity Analysis</a>
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">City Latitude vs. Cloudiness Analysis</a>
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">City Latitude vs. Wind Speed</a>
+        <a style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" href="#">Contact</a>
+    </div>
+
+    <!--Drop-down Bar for smaller screens-->
+    <select id="nav-select">
+        <option value="Home">Home</option>
+        <option value="About">About</option>
+        <option value="City Latitude vs. Max Temperature Analysis">City Latitude vs. Max Temperature Analysis</option>
+        <option value="City Latitude vs. Humidity Analysis">City Latitude vs. Humidity Analysis</option>
+        <option value="City Latitude vs. Cloudiness Analysis">City Latitude vs. Cloudiness Analysis</option>
+        <option value="City Latitude vs. Wind Speed">City Latitude vs. Wind Speed</option>
+        <option value="Contact">Contact</option>
+    </select>
+
+    <!--Header for Website-->
+    <header class="header">
+    <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"> My Weather Data Website</h1>
+    </header>
+    <br>
+
+    <!--Explanation of the project  <area class="p1">-->
+    <main>
+    <section class="description_p1">    
+        <p>The way the whole analysis was made was by retrieving, manipulating and analyzing an open-to-public API called "Weather API".</p>
+        <p>Firstly, an account was created in the Weather API website. Once it was done, the website provided a unique API Key used to get access to the information and manipulate it. The tool used to make the analysis was a Jupyter Notebook along with the Pandas library using Python as the coding language. The idea was to plan a ficticious holiday trip in such a way that parameters where needed to enter into the anlysis to get the best fits for the perfect holiday trip.</p>
+        <p>Some of the parameters entered into the code were:</p>
+        <ul>
+            <li>Minimum temperature</li>
+            <li>Maximum temperature</li>
+            <li>Latitude</li>
+            <li>Longitude</li>
+            <li>Precipitation</li>
+            <li>Humidity</li>
+        </ul></p>
+        <p>Google Places was used for the second part of the assignment. The idea was that once all of the locations were found that fitted the paramters entered, a list of hotels would display in those resulting cities with hotel data such as the Hotel Name and the Hotel Rating.</p>
+        <p>Finally, a world map would be displayed with all of those cities pointed out with markers that once the user hover on those markers, a message would appear to the user showing get the City Name and Hotel information.</p>
+    <!--Contact information-->
+    <p>You can find some of my social media accounts if you liked the information you just saw. Just click on the next links to get re-directed:</p>
+    <ul>
+        <li><strong>Github</strong><a href="https://github.com/FernandoCL1991"></a></li>
+        <li><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/fernando-corral-lozada-a11896102/"></a></li>
+    </ul>
+    </main>
+</div>
+</body>
+</html>
