@@ -1,76 +1,21 @@
-/* STYLE FOR THE SIDEBAR MENU */
-
-/* Sidebar Menu */
-.sidenav {
-    height: 100%; /* Height of the sidebar */
-    width: 200px; /* Width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 50; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+body {
+    background: rgb(240, 241, 241);
   }
 
-  /* The navigation menu links */
-.sidenav a {
-    padding: 30px 40px 6px 25px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-    color: #46cfc8ab;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #e7e40e;
-  }
-  
-  /* Style page content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-/* STYLE FOR THE HEADER */
-.header h1 {
-    padding-left: 80px;
-    color: rgb(100, 87, 83);
-    background: rgb(189, 223, 139);
-    margin-left: 500px;
+.description {
+    font-size: 22px;
 }
 
-/* STYLE FOR THE PARAGRAPHS OF PAGE 1*/
-.description_p1 {
-    margin-top: 50px;
-    margin-left: 190px;
-    padding: 20px;
-    color: rgb(0, 0, 0);
-    background: rgb(189, 223, 139);
-    text-align:justify;
-    font-family: 'Lucida Sans';
+.description-content > p {
+    padding-right: 100px;
 }
 
-/* STYLE FOR THE NAVIGATION BAR*/
-/* Option for the PC Screen: hidden */
-#nav-select {
-    visibility: hidden;
+#description-image {
+    width: 700px;
+    height: 400px;
 }
-/* Option for Smaller Screens: visible. @media to overwrite the above code */
-@media (max-width: 480px) {
-    #nav-select {
-        visibility: visible;
-    }
-/* Option for Smaller Screens: hide entire sidenav */
-    .sidenav {
-        visibility: hidden;
-    }
+
+.figcaptionpg5 {
+    font-size: 18px;
 }
+

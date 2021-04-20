@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--All styling-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Links to all visualization pages-->
+    <a rel="page1" type="html" href="visualpg1.html">
+        <!--Latitude vs. Temperature-->
+        <a rel="page2" type="html" href="visualpg2.html">
+            <!--Latitude vs. Humidity-->
+            <a rel="page3" type="html" href="visualpg3.html">
+                <!--Latitude vs. Cloudiness-->
+                <a rel="page4" type="html" href="visualpg4.html">
+                    <!--Latitude vs. Wind Speed-->
+                    <a rel="page5" type="html" href="visualpg5.html">
+                        <!--Comparissons Between Variables Page-->
+                        <a rel="page6" type="html" href="contactpg6.html">
+                            <!--Contact Info-->
+                            <a rel="index" type="html" href="index.html">
+                                <!--Main Page-->
+
+                                <!--Tab Title-->
+                                <title>Weather Data Site</title>
+</head>
+
+<body>
+    <main>
+        <!--Bootstrap NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">TheWeatherDataSite</a>
+                <!--Logo Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="visualpg5.html">Data Comparisson</a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactpg6.html">Contact</a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactpg6.html">Data</a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <!--Dropdown Options-->
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" href="visualpg1.html">City Latitude vs. Max Temperature
+                                    Analysis</a>
+                                <a class="dropdown-item" href="visualpg2.html">City Latitude vs. Humidity Analysis</a>
+                                <a class="dropdown-item" href="visualpg3.html">City Latitude vs. Cloudiness Analysis</a>
+                                <a class="dropdown-item" href="visualpg4.html">City Latitude vs. Wind Speed</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-md-0">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Bootstrap: Content-->
+        <!-- ////////////////////////////////////////////////////// -->
+        <!-- Header -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <h1>The Weather Data Site</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Page Description: First Part -->
+            <section class="description">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>The way the whole analysis was made was by retrieving, manipulating and analyzing an
+                            open-to-public API called "Weather API".</p>
+                        <p>Firstly, an account was created in the Weather API website. Once it was done, the website
+                            provided a unique API Key used to get access to the information and manipulate it.</p>
+                        <p>The tool used to make the analysis was a Jupyter Notebook along with the Pandas library using
+                            Python as the coding language.</p>
+                        <p>The idea was to plan a ficticious holiday trip in such a way that parameters where needed to
+                            enter into the anlysis to get the best fits for the perfect holiday trip.</p>
+                        <p>Some of the parameters entered into the code were:</p>
+                    </div>
+                </div>
+                <br>
+                <!-- Page Description: List -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul>
+                            <li>Minimum temperature</li>
+                            <li>Maximum temperature</li>
+                            <li>Latitude</li>
+                            <li>Longitude</li>
+                            <li>Precipitation</li>
+                            <li>Humidity</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <!-- Page Description: Second Part -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Google Places was used for the second part of the assignment. The idea was that once all of
+                            the locations were found that fitted the paramters entered, a list of hotels would display
+                            in those resulting cities with hotel data such as the Hotel Name and the Hotel Rating.</p>
+                        <p>Finally, a world map would be displayed with all of those cities pointed out with markers
+                            that once the user hover on those markers, a message would appear showing get the City Name
+                            and Hotel information.</p>
+                    </div>
+                </div>
+                <br>
+                <!-- Page Description: Image -->
+                <div class="container">
+                    <section class="row">
+                        <div class="col-md-12">
+                            <article class="description-content">
+                                <img src=../Resources/assets/images/heatmap_marker.png
+                                    alt="World Map with Heatmap and Locations" id="description-image" />
+                                <p>World Map with Heatmap and Locations</p>
+                                <br>
+                                <br>
+                                <br>
+                            </article>
+                        </div>
+                </div>
+                <br>
+                <!-- Footer -->
+                <div class="description">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p>Author: Fernando Corral Lozada</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <!-- Java Script -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+    </main>
+</body>
+
+</html>

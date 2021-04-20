@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--All styling-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Links to all visualization pages-->
+    <a rel="page1" type="html" href="visualpg1.html">
+        <!--Latitude vs. Temperature-->
+        <a rel="page2" type="html" href="visualpg2.html">
+            <!--Latitude vs. Humidity-->
+            <a rel="page3" type="html" href="visualpg3.html">
+                <!--Latitude vs. Cloudiness-->
+                <a rel="page4" type="html" href="visualpg4.html">
+                    <!--Latitude vs. Wind Speed-->
+                    <a rel="page5" type="html" href="visualpg5.html">
+                        <!--Comparissons Between Variables Page-->
+                        <a rel="page6" type="html" href="contactpg6.html">
+                            <!--Contact Info-->
+                            <a rel="index" type="html" href="index.html">
+                                <!--Main Page-->
+
+                                <!--Tab Title-->
+                                <title>Weather Data Site</title>
+</head>
+
+<body>
+    <main>
+        <!--Bootstrap NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">TheWeatherDataSite</a>
+                <!--Logo Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactpg6.html">Contact</a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="visualpg5.html">Data Comparisson</a>
+                            <!--Button -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <!--Dropdown Options-->
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" href="visualpg1.html">City Latitude vs. Max Temperature
+                                    Analysis</a>
+                                <a class="dropdown-item" href="visualpg2.html">City Latitude vs. Humidity Analysis</a>
+                                <a class="dropdown-item" href="visualpg3.html">City Latitude vs. Cloudiness Analysis</a>
+                                <a class="dropdown-item" href="visualpg4.html">City Latitude vs. Wind Speed</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-md-0">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Bootstrap: Content-->
+        <!-- ////////////////////////////////////////////////////// -->
+        <!-- Header -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <h1>Latitude and Humidity</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Page Description: First Part -->
+            <section class="description">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>What this scatter plot is showing us is the relation that Latitude and Humidity have with
+                            each other in our Cities Database.</p>
+                        <br>
+                        <p>These are some of the insights one can get from the plot:</p>
+                        <ul>
+                            <li>There is a trend that cities below 0 latitude have higher humidity indexes.</li>
+                            <li>There is another trend that cities above 0 latitude have a more diverse humidity
+                                indexes.</li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+                <!-- Page Description: Image -->
+                <div class="container">
+                    <section class="row">
+                        <div class="col-md-12">
+                            <article class="description-content">
+                                <img src=../Resources/assets/images/Fig2.png alt="Latitude vs. Humidity"
+                                    id="description-image" />
+                                <p>Latitude vs. Humidity</p>
+                                <br>
+                                <br>
+                                <br>
+                            </article>
+                        </div>
+                </div>
+                <br>
+                <!--Video-->
+                <p>Click on the link below to have a video to explain furthermore the relation between latitude and
+                    humidity:
+                </p>
+                <ul>
+                    <li><strong>Youtube: </strong><a href="https://www.youtube.com/watch?v=5tC8OOxOFEk"
+                            target="_blank">Latitude
+                            vs. Humidity</a></li>
+                </ul>
+                <!-- Page Description: Blank Space -->
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- Footer -->
+                <div class="description">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p>Author: Fernando Corral Lozada</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+        </div>
+        <!-- Java Script -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </main>
+</body>
+
+</html>
