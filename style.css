@@ -4,6 +4,8 @@ body {
     background: rgb(240, 241, 241);
   }
 
+/* Text Styling */
+
 .description {
     font-size: 22px;
 }
@@ -11,6 +13,8 @@ body {
 .description-content > p {
     padding-right: 100px;
 }
+
+/* Text Styling */
 
 .description-content img {
   text-align: center;
@@ -25,6 +29,8 @@ body {
 .figcaptionpg5 {
     font-size: 18px;
 }
+
+/* Youtube Videos */
 
 .videowrapper { 
   float: none;
