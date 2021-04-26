@@ -12,14 +12,40 @@ body {
     padding-right: 100px;
 }
 
+.description-content img {
+  text-align: center;
+}
+
 #description-image {
     width: 700px;
     height: 400px;
+    text-align: center;
 }
 
 .figcaptionpg5 {
     font-size: 18px;
 }
+
+.videowrapper { 
+  float: none;
+  clear: both;
+  width: 700px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+margin: 0 auto;
+}
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+max-width: 700px;
+max-height: 400px;
+}
+
 
 /* Data Set Styling */
 
@@ -70,9 +96,9 @@ only screen and (max-width: 1500px) {
   td:nth-of-type(2):before { content: "Cloudiness"; }
   td:nth-of-type(3):before { content: "Country"; }
   td:nth-of-type(4):before { content: "Date";}
-  td:nth-of-type(4):before { content: "Humidity";}
-  td:nth-of-type(4):before { content: "Latitude";}
-  td:nth-of-type(4):before { content: "Longitude";}
-  td:nth-of-type(4):before { content: "Maximum Temperature";}
-  td:nth-of-type(4):before { content: "Wind Speed";}
+  td:nth-of-type(5):before { content: "Humidity";}
+  td:nth-of-type(6):before { content: "Latitude";}
+  td:nth-of-type(7):before { content: "Longitude";}
+  td:nth-of-type(8):before { content: "Maximum Temperature";}
+  td:nth-of-type(9):before { content: "Wind Speed";}
 }
