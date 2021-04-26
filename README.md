@@ -1,4 +1,9 @@
-﻿# Web Design Homework - Web Visualization Dashboard (Latitude)
+Link to Git Hub Pages: https://fernandocl1991.github.io/Web-Design-Challenge/
+
+
+
+
+# Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background
 
